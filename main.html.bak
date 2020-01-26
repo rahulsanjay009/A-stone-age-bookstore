@@ -1,0 +1,14 @@
+<html>
+      <head>
+	<link rel="stylesheet" type="text/css"  href="style.css">
+	   <frameset rows="20%,*" frameborder=no border=0 >  
+		<frame src="navbar.html" scrolling=no>		
+		<frameset cols="20%,*">
+			<frame src="dept.html" scrolling=no>
+			<frame src="home.html" name="display" scrolling=no>
+		</frameset>
+	  </frameset>
+      </head>
+      <body>
+    </body>
+</html>

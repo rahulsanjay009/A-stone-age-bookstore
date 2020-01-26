@@ -1,0 +1,28 @@
+body{
+     background: linear-gradient(#e66465, #9198e5);
+     color:white;
+     
+ }
+h1{
+     text-align:center;
+     color:white;		
+}
+
+h2{
+   text-align:center;
+   color:white;
+   
+}
+h2:hover{
+   cursor:pointer;
+   text-shadow:6px 6px 10px  white;  
+}
+
+a{
+     text-decoration:none;	
+	 margin-bottom:0;
+ }
+ table{
+     border-spacing: 5px 5px ;	 
+ }
+ 

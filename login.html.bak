@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel=stylesheet type=text/css href="style.css">
+    </head>
+    <body>
+	<% 
+	Cookie ck[]=request.getCookies();
+	try{
+	if((ck.length%2!)=0)	{
+			out.println("<div><form action=logout method=post><input type=sumit value=logout> </form> </div>");
+			}		
+	}
+	Catch(Exception e){
+			Out.println("exception man!!!");
+	}
+	
+	%>
+    <table align=center>
+
+            <br><br>
+            <h1> LOGIN </h1> 
+            <br>
+            <form action="login" method="POST">
+            <tr >
+                <td> <label for="UN">USERNAME</label></td> 
+                
+                <td > <input  type="text" id="UN" name="USERNAME"> </td> 
+            </tr>
+            
+            <tr >
+                <td > <label for="PWD">PASSWORD</label></td>
+                
+                <td> <input type=password id="PWD" name="PASSWORD"> </td>
+            </tr>
+            
+            <tr >
+                <td align=right> <button type=reset> RESET </button></td><td align=left><button type=submit> LOGIN </button></td>
+            </tr>
+        </form>
+        </table>
+    </body>
+</html>

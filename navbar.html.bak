@@ -1,0 +1,33 @@
+<html>
+	<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+	
+			.w1{
+				margin-top:0px;
+				float:left;
+			}
+			.wn{
+				float:none;
+				margin-top:30px;
+				margin-bottom:30px;
+			}
+		</style>
+	</head>
+	<body>
+	<img src="" alt=" could not be loaded" class=w1 >
+	<h1 class=wn align=center> Website Name</h1>
+	
+	<table align=center width=100%>
+	<tr>
+	<td><a href="home.html" target="display"><h2> Home </h2></a></td>
+	<td><a href="login.jsp" target="display"><h2> Login </h2></a></td>
+	<td><a href="registration.html" target="display"><h2> Registration </h2></a></td>
+	<td><a href="catalogue.jsp" target="display"><h2> Catalogue </h2></a></td>
+	<td><a href="cart" target="display"><h2> Cart </h2></a></td>
+	</tr>
+	
+	</table>
+	
+	</body>
+</html>
